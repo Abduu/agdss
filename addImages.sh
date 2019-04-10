@@ -16,3 +16,6 @@ shopt -s nullglob nocaseglob
 for file in *.jpg *.jpeg *.png *.bmp; do
     curl --data "path=$(pwd)&image_name=$file&categories=$1" "$SERVER$URL"
 done
+Do 
+    when we start 
+    close
